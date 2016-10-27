@@ -35,7 +35,9 @@
 \setlength{\marginparsep}{0pt}
 \setlength{\marginparwidth}{0pt}
 %% This is not specified in the the guide, but rather a reasonable guess.
-\setlength{\footskip}{0.5in}
+\let\oldfootnote\footnote
+\renewcommand\footnote[1]{%
+\oldfootnote{\hspace{1mm}#1}}
 
 %% Text, title pages and outlines are double spaced (5).
 \doublespacing
