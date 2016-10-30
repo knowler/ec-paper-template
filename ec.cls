@@ -154,7 +154,7 @@
 \renewcommand{\l@paragraph}{\@dottedtocline{4}{2in}{1.75em}}
 \renewcommand{\@dotsep}{10000}
 \let\ec@contentsline\contentsline
-\renewcommand{\contentsline}[3]{\ec@contentsline{#1}{#2.}{}}
+\renewcommand{\contentsline}[3]{\ec@contentsline{#1}{#2}{}}
 
 %% Outlines use Roman, Alph, arabic, and alph for each indentation level
 %% 1, 2, 3, and 4 respectively. The example shows that the forth level
