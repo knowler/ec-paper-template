@@ -34,10 +34,6 @@
 \setlength{\textwidth}{6.5in}
 \setlength{\marginparsep}{0pt}
 \setlength{\marginparwidth}{0pt}
-%% This is not specified in the the guide, but rather a reasonable guess.
-\let\oldfootnote\footnote
-\renewcommand\footnote[1]{%
-\oldfootnote{\hspace{1mm}#1}}
 
 %% Text, title pages and outlines are double spaced (5).
 \doublespacing
@@ -46,6 +42,11 @@
 \setlength{\RaggedRightRightskip}{0pt plus 1fil}
 \setlength{\RaggedRightParindent}{.5in}
 \RaggedRight
+
+%% This is not specified in the the guide, but rather a reasonable guess.
+\let\oldfootnote\footnote
+\renewcommand\footnote[1]{%
+\oldfootnote{\RaggedRight{\hspace{1mm}#1}}}
 
 \setlength{\TPHorizModule}{1in}
 \setlength{\TPVertModule}{1in}
