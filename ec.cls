@@ -13,6 +13,7 @@
 \usepackage[babel]{csquotes}
 \usepackage{kantlipsum}
 \usepackage[utf8x]{inputenc}
+\usepackage{fixltx2e}
 
 %% Use letter-sized paper for PDF output.
 \ifx\pdfoutput\undefined
