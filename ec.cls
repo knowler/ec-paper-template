@@ -9,9 +9,10 @@
 \RequirePackage{setspace}
 \RequirePackage{ragged2e}
 \RequirePackage[absolute]{textpos}
-\RequirePackage[english]{babel}
+\RequirePackage[greek,english]{babel}
 \usepackage[babel]{csquotes}
 \usepackage{kantlipsum}
+\usepackage[utf8x]{inputenc}
 
 %% Use letter-sized paper for PDF output.
 \ifx\pdfoutput\undefined
